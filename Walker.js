@@ -2,7 +2,7 @@
 class Walker {
   constructor() {
     this.pos = createVector(width / 2, height / 8);
-    this.vel = createVector(random(-7, 7), 0);
+    this.vel = createVector(random([-3,-5,5,3]), 0);
     this.w = 20;
     this.d = 8;
     this.r = 0;
@@ -42,7 +42,7 @@ class Walker {
   }
   reset() {
     this.pos = createVector(width / 2, height / 8);
-    this.vel = createVector(random(-7, 7), 0);
+    this.vel = createVector(random([-3,-5,5,3]), 0);
     this.w = 20;
     this.d = 8;
     this.r = 0;
