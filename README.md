@@ -6,7 +6,7 @@
 - 1234
 
   ## 예제 코드
-```
+```javascript
 
 function setup {
 createCanvas( 100, 100);
