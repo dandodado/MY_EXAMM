@@ -15,10 +15,4 @@ createCanvas( 100, 100);
 functuin draw() {
 background(200);
 
-
-
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> b659b0e6003370ba93b9f5d0d9864aec04b3a55e
